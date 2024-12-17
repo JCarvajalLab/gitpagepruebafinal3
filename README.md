@@ -22,9 +22,7 @@ Debemos modificar la ruta y agregar la carpeta del proyecto
 <br/>
 Paso 4. Luego de haber realizado lo mencionado debemos agrear el siguiente comando a la terminal
 <br/>
-```bash
-  npm run build
-```
+**  npm run build
 <br/>
 Esto creara la carpeta "dist" con el proyecto actualizado (Basicamente compila el proyecto y lo sube en una carpeta)
 <br/>
@@ -75,28 +73,35 @@ Paso 5. Validamos que este actualizada la pagina principal con el comando
 <br/>
 <br/>
 
-PASOS PARA ACTUALIZAR LA PAGINA WEB GENERADA POR GITHUB PAGES
-<br/>
-<br/>
+## PASOS PARA ACTUALIZAR LA PAGINA WEB GENERADA POR GITHUB PAGES
+
 Paso 1: Ejecuta el comando npm run build para compilar y generar los archivos de producción en la carpeta dist.
-<br/>
-** npm run build
-<br/>
+
+```bash
+  npm run build
+```
+
 Paso 2: Agregar y commit los cambios
-<br/>
+
 Ejecuta el comando git add dist -f para agregar la carpeta dist al área de preparación (staging area) de Git.
-<br/>
-** git add dist -f
-<br/>
+```bash
+  git add dist -f
+```
+
 Ejecuta el comando git commit -m "Actualizar sitio web" para crear un nuevo commit con los cambios.
-<br/>
-** git commit -m "Se agregan actualizaciones"
-<br/>
+
+```bash
+  git commit -m "Se agregan actualizaciones"
+```
+
 Paso 3: Subir los cambios a GitHub Pages
-<br/>
+
 Ejecuta el comando git subtree push --prefix dist origin gh-pages para subir los archivos de producción a GitHub Pages.
-<br/>
-**git subtree push --prefix dist origin gh-pages
+
+```bash
+  git subtree push --prefix dist origin gh-pages
+```
+
 <br/>
 <br/>
 NOTA: Al realizar la actualizacion de la web esto provocara que en los archivos GITHUB solo se actualicen los de la rama gh-pages, por lo cual debes seguir el procedimiento normal para actualizar la rama main 
