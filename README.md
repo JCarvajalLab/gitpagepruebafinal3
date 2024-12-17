@@ -46,8 +46,10 @@ Lo puedes agregar 2 veces si es necesario, algunass veces lanza una alerta
   git subtree push --prefix dist origin gh-pages
 ```
 
-Al realizar el paso 8. el proyecto se configurara automaticamente a la rama gh-pages, por ultimo solo debes activar el enlace
-Debes presionar la tuerca de configuraciones en ABOUT y luego seleccionar con el checklist "Use your GitHub Pages website"
+Al realizar el paso 8. el proyecto se configurara automaticamente a la rama gh-pages
+
+>[!IMPORTANT]
+>Por ultimo solo debes activar el enlace, Debes presionar la ⚙️(tuerca) de configuraciones en ABOUT y luego seleccionar con el checklist "Use your GitHub Pages website"
 
 Esto te generara el enlace https://jcarvajallab.github.io/gitpagepruebafinal3/
 <br/>
