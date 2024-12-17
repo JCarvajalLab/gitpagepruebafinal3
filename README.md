@@ -22,7 +22,9 @@ Debemos modificar la ruta y agregar la carpeta del proyecto
 <br/>
 Paso 4. Luego de haber realizado lo mencionado debemos agrear el siguiente comando a la terminal
 <br/>
-**  npm run build
+```bash
+npm run build
+```
 <br/>
 Esto creara la carpeta "dist" con el proyecto actualizado (Basicamente compila el proyecto y lo sube en una carpeta)
 <br/>
