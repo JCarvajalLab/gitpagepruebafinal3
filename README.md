@@ -41,6 +41,7 @@ Paso 8. Actualiza la rama gh-pages con los cambios de la rama principal (main) c
 <br/>
 git subtree push --prefix dist origin gh-pages
 <br/>
+<br/>
 Al realizar el paso 8. el proyecto se configurara automaticamente a la rama gh-pages, por ultimo solo debes activar el enlace
 <br/>
 Debes presionar la tuerca de configuraciones en ABOUT y luego seleccionar con el checklist Use your GitHub Pages website
