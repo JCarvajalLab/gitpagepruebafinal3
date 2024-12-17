@@ -1,6 +1,8 @@
 # gitpagepruebafinal3
 PASOS PARA AGREGAR UN PROYECTO VUE Y SUBIRLO A GITHUB PAGE
 <br/>
+<br/>
+<br/>
 Paso 1. Crear proyecto de VUE CLI (Agregar vuex/router si es necesario)
 <br/>
 Paso 2. Crear el repositorio en GitHub y sincronizarlo con el proyecto local
