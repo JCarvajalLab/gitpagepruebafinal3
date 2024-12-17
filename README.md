@@ -14,7 +14,6 @@ Paso 3. Agregar la siguiente linea de comando a vue.config.js (El proyecto actua
 module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: process.env.NODE_ENV === 'production' ? '/gitpagepruebafinal3/' : '/'
-
 })
 ```
 <br/>
