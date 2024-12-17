@@ -50,3 +50,29 @@ Debes presionar la tuerca de configuraciones en ABOUT y luego seleccionar con el
 <br/>
 <br/>
 Esto te generara el enlace https://jcarvajallab.github.io/gitpagepruebafinal3/
+<br/>
+<br/>
+
+Ahora vamos a actualizar la pagina web generada por GitHub Pages
+
+<br/>
+<br/>
+Paso 1: Ejecuta el comando npm run build para compilar y generar los archivos de producción en la carpeta dist.
+<br/>
+** npm run build
+<br/>
+Paso 2: Agregar y commit los cambios
+<br/>
+Ejecuta el comando git add dist -f para agregar la carpeta dist al área de preparación (staging area) de Git.
+<br/>
+** git add dist -f
+<br/>
+Ejecuta el comando git commit -m "Actualizar sitio web" para crear un nuevo commit con los cambios.
+<br/>
+** git commit -m "Se agregan actualizaciones"
+<br/>
+Paso 3: Subir los cambios a GitHub Pages
+<br/>
+Ejecuta el comando git subtree push --prefix dist origin gh-pages para subir los archivos de producción a GitHub Pages.
+<br/>
+**git subtree push --prefix dist origin gh-pages
