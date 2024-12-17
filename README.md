@@ -7,11 +7,16 @@ Paso 2. Crear el repositorio en GitHub y sincronizarlo con el proyecto local
 <br/>
 Paso 3. Agregar la siguiente linea de comando a vue.config.js (El proyecto actual es VUE 3)
 <br/>
+<br/>
 module.exports = defineConfig({
+<br/>
   transpileDependencies: true,
+  <br/>
   publicPath: process.env.NODE_ENV === 'production' ? '/gitpagepruebafinal3/' : '/'
+  <br/>
 })
 
+<br/>
 <br/>
 Debemos modificar la ruta y agregar la carpeta del proyecto
 <br/>
