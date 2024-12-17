@@ -25,7 +25,7 @@ Paso 4. Luego de haber realizado lo mencionado debemos agrear el siguiente coman
 <br/>
 Esto creara la carpeta "dist" con el proyecto actualizado (Basicamente compila el proyecto y lo sube en una carpeta)
 <br/>
-Paso 5.Agrega los archivos generados en la carpeta dist al área de preparación (staging area) de Git con el comando 
+Paso 5. Agrega los archivos generados en la carpeta dist al área de preparación (staging area) de Git con el comando 
 <br/>
 **  git add dist -f (Lo puedes agregar 2 veces si es necesario, algunass veces lanza una alerta)
 <br/>
@@ -33,7 +33,7 @@ Paso 6. Crea un nuevo commit con los cambios con el comando
 <br/>
 **  git commit -m "Actualizar sitio web"
 <br/>
-Paso 7.Sube los cambios a tu rama principal (main) en GitHub con el comando 
+Paso 7. Sube los cambios a tu rama principal (main) en GitHub con el comando 
 <br/>
 git push origin main
 <br/>
