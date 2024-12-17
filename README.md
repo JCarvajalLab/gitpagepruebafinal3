@@ -13,7 +13,7 @@ module.exports = defineConfig({
 })
 ```
 >[!IMPORTANT]
->Debemos modificar la ruta y agregar la carpeta del proyecto
+>Debemos modificar la ruta y agregar la del github, yo realice una prueba en el cual eran diferentes y no me funcionaba
 
 -  Paso 4. Luego de haber realizado lo mencionado debemos agrear el siguiente comando a la terminal
 
