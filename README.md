@@ -100,10 +100,19 @@ Ejecuta el comando git subtree push --prefix dist origin gh-pages para subir los
 <br/>
 NOTA: Al realizar la actualizacion de la web esto provocara que en los archivos GITHUB solo se actualicen los de la rama gh-pages, por lo cual debes seguir el procedimiento normal para actualizar la rama main 
 <br/>
+<br/>
 git add .
 <br/>
 git commit -m "se modifica proyecto"
 <br/>
 git push -u origin main
+<br/>
+<br/>
+NOTA: Si por alguna casualidad se realiza una modificacion en el github de manera en linea(Editando el readme) debes utilizar el comando para que se sincronicen el repositorio local con el enlinea
+<br/>
+<br/>
+** git pull origin main
+<br/>
+Al realizar esto te permitira subir los archivos de forma normal
 <br/>
 El proyecto se actualizara en la rama main como siempre
