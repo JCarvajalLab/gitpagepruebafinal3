@@ -46,15 +46,35 @@ git subtree push --prefix dist origin gh-pages
 <br/>
 Al realizar el paso 8. el proyecto se configurara automaticamente a la rama gh-pages, por ultimo solo debes activar el enlace
 <br/>
-Debes presionar la tuerca de configuraciones en ABOUT y luego seleccionar con el checklist Use your GitHub Pages website
+Debes presionar la tuerca de configuraciones en ABOUT y luego seleccionar con el checklist "Use your GitHub Pages website"
 <br/>
 <br/>
 Esto te generara el enlace https://jcarvajallab.github.io/gitpagepruebafinal3/
 <br/>
 <br/>
 
-Ahora vamos a actualizar la pagina web generada por GitHub Pages
+AHORA VAMOS A ACTUALIZAR LA PAGINA WEB GENERADA POR GITHUB PAGES, de ejemplo le agregaremos el VUETIFY
+<br/>
+<br/>
+Paso 1. Agregaremos el comando para agregar el vuetify al proyecto
+<br/>
+** vue add vuetify
+<br/>
+Paso 2. Nos preguntara si quiermos realizar esta actualizacion y le ponemos si (y/n)
+<br/>
+** y
+<br/>
+Paso 3. Debemos seleccionar la version que corresponda, en mi caso al estar trabajando con VUE 3 debo seleccionar(Esto es a la fecha de 17/12/2024)
+<br/>
+** vuetify 3 - Vue Cli (preview) con vue 3
+<br/>
+Paso 5. Validamos que este actualizada la pagina principal con el comando 
+<br/>
+**npm run serve
+<br/>
+<br/>
 
+PASOS PARA ACTUALIZAR LA PAGINA WEB GENERADA POR GITHUB PAGES
 <br/>
 <br/>
 Paso 1: Ejecuta el comando npm run build para compilar y generar los archivos de producción en la carpeta dist.
@@ -76,3 +96,14 @@ Paso 3: Subir los cambios a GitHub Pages
 Ejecuta el comando git subtree push --prefix dist origin gh-pages para subir los archivos de producción a GitHub Pages.
 <br/>
 **git subtree push --prefix dist origin gh-pages
+<br/>
+<br/>
+NOTA: Al realizar la actualizacion de la web esto provocara que en los archivos GITHUB solo se actualicen los de la rama gh-pages, por lo cual debes seguir el procedimiento normal para actualizar la rama main 
+<br/>
+git add .
+<br/>
+git commit -m "se modifica proyecto"
+<br/>
+git push -u origin main
+<br/>
+El proyecto se actualizara en la rama main como siempre
