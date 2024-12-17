@@ -15,10 +15,9 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production' ? '/gitpagepruebafinal3/' : '/'
   <br/>
 })
-
-<br/>
 <br/>
 Debemos modificar la ruta y agregar la carpeta del proyecto
+<br/>
 <br/>
 Paso 4. Luego de haber realizado lo mencionado debemos agrear el siguiente comando a la terminal
 <br/>
@@ -43,6 +42,8 @@ Paso 8. Actualiza la rama gh-pages con los cambios de la rama principal (main) c
 git subtree push --prefix dist origin gh-pages
 <br/>
 Al realizar el paso 8. el proyecto se configurara automaticamente a la rama gh-pages, por ultimo solo debes activar el enlace
+<br/>
 Debes presionar la tuerca de configuraciones en ABOUT y luego seleccionar con el checklist Use your GitHub Pages website
+<br/>
 <br/>
 Esto te generara el enlace https://jcarvajallab.github.io/gitpagepruebafinal3/
